@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJANGO_CRUD OPERATIONS</title>
+    <link rel="stylesheet" href="{% static 'crud/css/bootstrap.css' %}">
+</head>
+<body style="background-color:rgb(181, 201, 181)">
+    <div class="container mt-5">
+        <h2 class ="text-center alert alert-danger">FunctionBaseView ModelForm CRUD PROJECT</h2>
+     
+        {% block content %}
+
+        {% endblock content %}
+    </div> 
+
+
+    <script src="{% static 'crud/js/jquesry.js' %}"></script>
+    <script src="{% static 'crud/js/popper.js' %}"></script>
+    <script src="{% static 'crud/js/bootstrap.js' %}"></script>
+</body>
+</html>
